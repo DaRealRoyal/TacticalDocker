@@ -3,7 +3,7 @@ version: "3.9"
 services:
   tmr_server:
     image: nalsai/tmr_server
-    build: ./unity
+    build: ./src
     container_name: tmr_server
     restart: unless-stopped
     ports:
